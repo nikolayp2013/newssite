@@ -15,3 +15,5 @@
 Подключить фреймворк https://www.bootstrapcdn.com/ <br />
 https://getbootstrap.com/ <br />
 Ищем иконку https://www.iconfinder.com/ <br />
+
+Библиатека аякс: https://developers.google.com/speed/libraries/ <br />
