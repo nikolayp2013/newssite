@@ -61,6 +61,7 @@
             $query->execute([$username, $mess, $_GET['id']]);
           }
 
+          // Вывод комментариев к статье
           $sql = 'SELECT * FROM `comments` WHERE `article_id` = :id ORDER BY `id` DESC';
           $query = $pdo->prepare($sql);
           $query->execute(['id' => $_GET['id']]);
