@@ -26,7 +26,7 @@
   if($user->id == 0)
     echo 'Такого пользователя не существует';
   else {
-    setcookie('log', $login, time() + 3600 * 24 * 30);
+    setcookie('log', $login, time() + 3600 * 24 * 30, "/");
     echo 'Готово';
   }
 ?>
